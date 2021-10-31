@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		long oneThousand = 1000;
+		long oneMillion = 1000 * oneThousand;
+		long oneBillion = 1000 * oneMillion;
+		long threeBillion = 3 * oneBillion;
+		
+		System.out.println (threeBillion);
+		
+	}
+
+}
