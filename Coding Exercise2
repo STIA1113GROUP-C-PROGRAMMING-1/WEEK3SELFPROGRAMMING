@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class Exercise1b {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double bookPrice=30.99;
+		double discount=0.1*bookPrice;
+		double newPrice=bookPrice-discount;
+		
+		System.out.printf ("The price of the book is RM%.2f" , newPrice);
+	}
+
+}
