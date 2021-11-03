@@ -1,0 +1,40 @@
+package numericalData;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float number1 = 11;
+		float number2 = 22;
+		float number3 = 33;
+		float number4 = 44;
+		float number5 = 55;
+		float number6 = 66;
+		float sum;
+		float minus;
+		float multiple;
+		float divide;
+		float average;
+		
+		sum = number1 + number2 + number3 + number4+ number5 + number6;
+		minus = number6 - number1;
+		multiple = number1 * number2 * number3 * number4 * number5 * number6;
+		divide = number6/number5;
+		average = sum/6;
+		
+		System.out.print("Sum = ");
+		 System.out.println(sum);
+		 System.out.print("Minus = ");
+		 System.out.println(minus);
+		 System.out.print("Multiple = ");
+		 System.out.println(multiple);
+		 System.out.print("Divide = ");
+		 System.out.printf("%.2f",divide);
+		 System.out.println();
+		 System.out.print("Average = ");
+		 System.out.printf("%.2f" , average);
+
+	}
+
+}
